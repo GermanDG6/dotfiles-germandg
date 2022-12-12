@@ -27,6 +27,7 @@ tap 'homebrew/cask'
 
 # cask '1password'
 # cask 'lastpass'
+cask 'bitwarden'
 
 # ============================================================================
 # Browsers
