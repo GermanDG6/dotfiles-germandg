@@ -11,12 +11,14 @@ tap 'homebrew/cask'
 
 # This is used to move windows and resize it.
 # cask 'hammerspoon'
+cask 'rectangle'
 
 # To delete applications with some confidence
-# cask 'appcleaner'
+cask 'appcleaner'
 
 # To edit screenshots
 # cask 'skitch'
+cask 'shottr'
 
 # Calculator
 # cask 'numi'
@@ -25,17 +27,15 @@ tap 'homebrew/cask'
 # Password manager
 # ============================================================================
 
-# cask '1password'
-# cask 'lastpass'
 cask 'bitwarden'
 
 # ============================================================================
 # Browsers
 # ============================================================================
 
-# cask 'firefox'
+cask 'firefox'
 cask 'google-chrome'
-# cask 'brave-browser'
+cask 'brave-browser'
 # cask 'qutebrowser'
 # cask 'opera-gx'
 
@@ -43,11 +43,11 @@ cask 'google-chrome'
 # Communication
 # ============================================================================
 
-# cask 'slack'
+cask 'slack'
 # cask 'zoomus'
 # cask 'microsoft-teams'
 # cask 'skype'
-# cask 'discord'
+cask 'discord'
 
 # ============================================================================
 # VPN
@@ -59,7 +59,7 @@ cask 'google-chrome'
 # IDE
 # ============================================================================
 
-# cask 'jetbrains-toolbox'
+cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
 
 # ============================================================================
@@ -68,9 +68,10 @@ cask 'visual-studio-code'
 
 # Replacement for Terminal on macOS
 cask 'iterm2'
+# cask 'warp'
 
 # Version control of text stuff
-# brew 'git'
+brew 'git'
 
 # Editor
 # brew 'vim'
@@ -81,6 +82,8 @@ cask 'iterm2'
 
 # To fuzzy find in terminal
 # brew 'fzf'
+brew "z"
+
 
 # Useful Http client
 # brew 'httpie'
@@ -89,10 +92,10 @@ cask 'iterm2'
 # brew 'thefuck'
 
 # To use the commandline "tree" useful for write project structures
-# brew 'tree'
+brew 'tree'
 
 # To view json files
-# brew 'jq'
+brew 'jq'
 
 # To enable use of .envrc and makefiles properly without manual steps
 # brew 'direnv'
@@ -112,34 +115,4 @@ cask 'iterm2'
 # To listen to music
 cask 'spotify'
 
-# ============================================================================
-# DevOps. This should be installed per project, instead of in the system.
-# ============================================================================
-
-# AWS
-# brew 'awscli'
-# brew 'aws-iam-authenticator'
-
-# IaC
-# Wrapper for Terraform
-# To manage terraform custom versions per project
-# brew 'tfenv'
-
-# To validate terraform scripts
-# brew 'tflint'
-
-# Virtualization
-# cask 'vagrant'
-# cask 'virtualbox'
-# cask 'docker'
-# brew 'packer'
-# brew 'minikube'
-# brew 'helm'
-# brew 'k9s'
-
-# ============================================================================
-# Network. This should be installed per project, instead of in the system.
-# ============================================================================
-
-# Required for local port forwarding in a public IP
-# cask 'ngrok'
+cask 'google-drive'
