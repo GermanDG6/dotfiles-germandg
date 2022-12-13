@@ -10,18 +10,13 @@ tap 'homebrew/cask'
 # cask 'caffeine'
 
 # This is used to move windows and resize it.
-# cask 'hammerspoon'
 cask 'rectangle'
 
 # To delete applications with some confidence
 cask 'appcleaner'
 
 # To edit screenshots
-# cask 'skitch'
 cask 'shottr'
-
-# Calculator
-# cask 'numi'
 
 # ============================================================================
 # Password manager
@@ -36,18 +31,16 @@ cask 'bitwarden'
 cask 'firefox'
 cask 'google-chrome'
 cask 'brave-browser'
-# cask 'qutebrowser'
-# cask 'opera-gx'
 
 # ============================================================================
 # Communication
 # ============================================================================
 
 cask 'slack'
+cask 'discord'
 # cask 'zoomus'
 # cask 'microsoft-teams'
 # cask 'skype'
-cask 'discord'
 
 # ============================================================================
 # VPN
@@ -84,7 +77,6 @@ brew 'git'
 # brew 'fzf'
 brew "z"
 
-
 # Useful Http client
 # brew 'httpie'
 
@@ -116,3 +108,6 @@ brew 'jq'
 cask 'spotify'
 
 cask 'google-drive'
+cask 'biscuit'
+cask 'the-unarchiver'
+cask 'runjs'
