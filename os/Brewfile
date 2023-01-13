@@ -111,4 +111,5 @@ cask 'google-drive'
 cask 'biscuit'
 cask 'the-unarchiver'
 cask 'runjs'
+cask 'maccy'
 brew 'nvm' # Node version manager
