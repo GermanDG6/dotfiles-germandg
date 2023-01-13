@@ -148,4 +148,5 @@ cask 'biscuit'
 cask 'the-unarchiver'
 cask 'runjs'
 cask 'maccy'
+cask 'dbeaver-community'
 brew 'nvm' # Node version manager
