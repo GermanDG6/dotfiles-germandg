@@ -131,7 +131,7 @@ cask 'spotify'
 # Virtualization
 # cask 'vagrant'
 # cask 'virtualbox'
-# cask 'docker'
+ cask 'docker'
 # brew 'packer'
 # brew 'minikube'
 # brew 'helm'
