@@ -112,6 +112,7 @@ cask 'iterm2'
 # To listen to music
 cask 'spotify'
 
+<<<<<<< HEAD
 # ============================================================================
 # DevOps. This should be installed per project, instead of in the system.
 # ============================================================================
@@ -143,3 +144,11 @@ cask 'spotify'
 
 # Required for local port forwarding in a public IP
 # cask 'ngrok'
+=======
+cask 'google-drive'
+cask 'biscuit'
+cask 'the-unarchiver'
+cask 'runjs'
+cask 'maccy'
+brew 'nvm' # Node version manager
+>>>>>>> efb68efeab4b6eb59fc6f1689879f47846dd2241
