@@ -71,6 +71,7 @@ cask 'iterm2'
 
 # Version control of text stuff
 # brew 'git'
+brew 'git-flow-avh'
 
 # Editor
 # brew 'vim'
