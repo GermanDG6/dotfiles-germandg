@@ -28,7 +28,7 @@ cask 'bitwarden'
 # ============================================================================
 
 # cask 'firefox'
-cask 'google-chrome'
+# cask 'google-chrome'
 # cask 'brave-browser'
 # cask 'qutebrowser'
 # cask 'opera-gx'
@@ -47,7 +47,7 @@ cask 'google-chrome'
 # VPN
 # ============================================================================
 
- cask 'forticlient-vpn'
+cask 'forticlient-vpn'
 #cask 'aws-vpn-client'
 
 # ============================================================================
