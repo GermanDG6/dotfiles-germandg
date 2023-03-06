@@ -15,18 +15,12 @@ tap 'homebrew/cask'
 # To delete applications with some confidence
  cask 'appcleaner'
 
-# To edit screenshots
-# cask 'skitch'
-
 # Calculator
 # cask 'numi'
 
 # ============================================================================
 # Password manager
 # ============================================================================
-
-# cask '1password'
-# cask 'lastpass'
 cask 'bitwarden'
 
 # ============================================================================
@@ -85,6 +79,8 @@ brew 'git-flow-avh'
 
 # Useful Http client
 # brew 'httpie'
+# SSH client and terminal
+brew 'termius'
 
 # Commands corrector
 # brew 'thefuck'
