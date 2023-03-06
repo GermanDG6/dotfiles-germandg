@@ -47,8 +47,8 @@ cask 'google-chrome'
 # VPN
 # ============================================================================
 
-# cask 'forticlient-vpn'
-cask 'aws-vpn-client'
+ cask 'forticlient-vpn'
+#cask 'aws-vpn-client'
 
 # ============================================================================
 # IDE
