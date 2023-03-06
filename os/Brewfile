@@ -81,8 +81,8 @@ brew 'git-flow-avh'
 
 # Useful Http client
 # brew 'httpie'
-# SSH client and terminal
-brew 'termius'
+# SSH client 
+cask 'termius'
 
 # Commands corrector
 # brew 'thefuck'
