@@ -62,6 +62,7 @@ cask 'visual-studio-code'
 
 # Replacement for Terminal on macOS
 cask 'iterm2'
+cask 'warp'
 
 # Version control of text stuff
 # brew 'git'
