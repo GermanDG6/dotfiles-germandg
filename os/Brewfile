@@ -149,5 +149,6 @@ cask 'the-unarchiver'
 cask 'runjs'
 cask 'maccy'
 cask 'dbeaver-community'
+cask 'shottr'
 cask 'raycast'
 brew 'nvm' # Node version manager
