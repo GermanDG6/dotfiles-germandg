@@ -11,6 +11,7 @@ tap 'homebrew/cask'
 
 # This is used to move windows and resize it.
 # cask 'hammerspoon'
+cask 'rectangle'
 
 # To delete applications with some confidence
  cask 'appcleaner'
