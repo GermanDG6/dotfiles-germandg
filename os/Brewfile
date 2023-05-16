@@ -102,7 +102,7 @@ cask 'termius'
 # ============================================================================
 
 # To edit your /etc/hosts files and compose it
-# cask 'gas-mask'
+cask 'gas-mask'
 # cask 'http-toolkit'
 
 # ============================================================================
