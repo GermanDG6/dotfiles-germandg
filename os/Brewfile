@@ -151,4 +151,5 @@ cask 'maccy'
 cask 'dbeaver-community'
 cask 'shottr'
 cask 'raycast'
+cask 'postman'
 brew 'nvm' # Node version manager
