@@ -137,6 +137,9 @@ cask 'spotify'
 # brew 'helm'
 # brew 'k9s'
 
+# Node version manager
+# brew 'nvm' 
+brew 'volta'
 # ============================================================================
 # Network. This should be installed per project, instead of in the system.
 # ============================================================================
@@ -152,4 +155,3 @@ cask 'dbeaver-community'
 cask 'shottr'
 cask 'raycast'
 cask 'postman'
-brew 'nvm' # Node version manager
