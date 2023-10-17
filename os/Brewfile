@@ -15,42 +15,10 @@ cask 'warp'
 cask 'termius'
 cask 'gas-mask'
 cask 'spotify'
-
-# ============================================================================
-# DevOps. This should be installed per project, instead of in the system.
-# ============================================================================
-
-# AWS
- brew 'awscli'
-# brew 'aws-iam-authenticator'
-
-# IaC
-# Wrapper for Terraform
-# To manage terraform custom versions per project
-# brew 'tfenv'
-
-# To validate terraform scripts
-# brew 'tflint'
-
-# Virtualization
-# cask 'vagrant'
-# cask 'virtualbox'
- brew 'docker'
-# brew 'packer'
-# brew 'minikube'
-# brew 'helm'
-# brew 'k9s'
-
-# Node version manager
-# brew 'nvm' 
+brew 'awscli'
+brew 'docker'
 brew 'volta'
-# ============================================================================
-# Network. This should be installed per project, instead of in the system.
-# ============================================================================
 brew 'gulp-cli'
-
-# Required for local port forwarding in a public IP
-# cask 'ngrok'
 cask 'google-drive'
 cask 'biscuit'
 cask 'the-unarchiver'
