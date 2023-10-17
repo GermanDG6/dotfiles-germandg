@@ -117,7 +117,7 @@ cask 'spotify'
 # ============================================================================
 
 # AWS
-# brew 'awscli'
+ brew 'awscli'
 # brew 'aws-iam-authenticator'
 
 # IaC
@@ -131,7 +131,7 @@ cask 'spotify'
 # Virtualization
 # cask 'vagrant'
 # cask 'virtualbox'
- cask 'docker'
+ brew 'docker'
 # brew 'packer'
 # brew 'minikube'
 # brew 'helm'
@@ -155,3 +155,4 @@ cask 'dbeaver-community'
 cask 'shottr'
 cask 'raycast'
 cask 'postman'
+brew 'gulp-cli'
