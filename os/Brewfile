@@ -143,6 +143,7 @@ brew 'volta'
 # ============================================================================
 # Network. This should be installed per project, instead of in the system.
 # ============================================================================
+brew 'gulp-cli'
 
 # Required for local port forwarding in a public IP
 # cask 'ngrok'
@@ -155,4 +156,3 @@ cask 'dbeaver-community'
 cask 'shottr'
 cask 'raycast'
 cask 'postman'
-brew 'gulp-cli'
