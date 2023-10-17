@@ -14,7 +14,7 @@ tap 'homebrew/cask'
 cask 'rectangle'
 
 # To delete applications with some confidence
- cask 'appcleaner'
+cask 'appcleaner'
 
 # Calculator
 # cask 'numi'
@@ -155,4 +155,4 @@ cask 'dbeaver-community'
 cask 'shottr'
 cask 'raycast'
 cask 'postman'
-brew 'gulp-cli'
+cask 'gulp-cli'
