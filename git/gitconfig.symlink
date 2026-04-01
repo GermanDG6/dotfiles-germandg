@@ -1,0 +1,15 @@
+[user]
+    name = GermanDG6
+    email = germandg6@gmail.com
+[credential]
+    helper = osxkeychain
+[alias]
+    c = commit -m
+    s = status
+    l = log
+[init]
+    defaultBranch = main
+[pull]
+    rebase = true
+[push]
+    autoSetupRemote = true
