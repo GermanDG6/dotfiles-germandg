@@ -1,3 +1,5 @@
+tap 'homebrew/bundle'
+
 # Terminal/Shell
 brew 'zoxide'
 brew 'fzf'
