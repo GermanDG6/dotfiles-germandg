@@ -1,0 +1,83 @@
+# System Preferences > Keyboard >
+defaults write -g InitialKeyRepeat -int 12
+
+# System Preferences > Keyboard >
+defaults write -g KeyRepeat -int 2
+
+# Auto hide the dock
+defaults write com.apple.dock autohide -bool true
+
+# Show all hidden files
+defaults write com.apple.Finder AppleShowAllFiles -bool true
+
+# Remove shadows from screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# New window points to home
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
+
+# Use list view
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+# Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
+defaults write com.apple.finder QuitMenuItem -bool true
+
+# Finder: show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+# Bottom right screen corner → Desktop
+defaults write com.apple.dock wvous-br-corner -int 4
+defaults write com.apple.dock wvous-br-modifier -int 0
+
+# Change the default screnshots folder
+defaults write com.apple.screencapture location ~/Desktop
+
+# Trackpad: enable tap to click for this user and for the login screen
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Use fn functions as default
+defaults write .GlobalPreferences.plist com.apple.keyboard.fnState -int 1
+
+# Disable user interface sound like screenshots
+defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
+
+# Prevent apps from staying in Dock
+defaults write com.apple.dock show-recents -bool no
+defaults write com.apple.dock persistent-apps -array
+
+# Disable automatic modifications of entered text
+defaults write -g NSAutomaticCapitalizationEnabled -bool false
+defaults write -g NSAutomaticDashSubstitutionEnabled -bool false
+defaults write -g NSAutomaticPeriodSubstitutionEnabled -bool false
+defaults write -g NSAutomaticQuoteSubstitutionEnabled -bool false
+defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Enable full keyboard access for all controls
+# (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# Enable tap to click for the current user and the login screen. (Don't have to press down on the trackpad -- just tap it.)
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write com.apple.AppleMultitouchTrackpad Clicking -int 1
+defaults -currentHost write -g com.apple.mouse.tapBehavior -int 1
+defaults write -g com.apple.mouse.tapBehavior -int 1
+
+# Always show scrollbars
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+
+# Avoid period substitution
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
+# Disable press-and-hold for keys in favor of key repeat
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
