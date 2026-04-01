@@ -3,35 +3,48 @@ tap 'homebrew/core'
 tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
 
-brew 'awscli'
-brew 'docker'
-brew 'volta'
-brew 'maven'
+# Terminal/Shell
 brew 'zoxide'
 brew 'fzf'
+brew 'lazygit'
+brew 'awscli'
 brew 'angular-cli'
-cask 'rectangle'
-cask 'appcleaner'
-cask 'bitwarden'
-cask 'google-chrome'
-cask 'brave-browser'
-cask 'aws-vpn-client'
-cask 'jetbrains-toolbox'
-cask 'visual-studio-code'
 cask 'warp'
 cask 'termius'
-cask 'gas-mask'
-cask 'spotify'
-cask 'google-drive'
 cask 'biscuit'
-cask 'the-unarchiver'
-cask 'maccy'
+
+# IDEs
+cask 'jetbrains-toolbox'
+cask 'visual-studio-code'
+
+# Browsers
+cask 'google-chrome'
+cask 'brave-browser'
+cask 'firefox'
+
+# Dev Tools
+brew 'volta'
+brew 'nvm'
+cask 'figma'
+brew 'gradle'
+brew 'maven'
+brew 'docker'
+cask 'aws-vpn-client'
+cask 'gas-mask'
 cask 'dbeaver-community'
-cask 'shottr'
-cask 'raycast'
 cask 'postman'
 
-# Comunication 
+# Productivity
+cask 'rectangle'
+cask 'the-unarchiver'
+cask 'maccy'
+cask 'shottr'
+cask 'raycast'
+cask 'bitwarden'
+cask 'appcleaner'
+cask 'google-drive'
+cask 'spotify'
 
+# Communication 
 cask 'zoom'
 cask 'slack'
