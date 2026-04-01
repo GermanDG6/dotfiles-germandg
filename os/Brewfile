@@ -30,3 +30,8 @@ cask 'dbeaver-community'
 cask 'shottr'
 cask 'raycast'
 cask 'postman'
+
+# Comunication 
+
+cask 'zoom'
+cask 'slack'
