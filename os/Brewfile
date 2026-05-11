@@ -29,7 +29,7 @@ cask 'gas-mask'
 cask 'dbeaver-community'
 cask 'postman'
 cask 'dotnet-sdk'
-brew 'opencode'
+brew 'anomalyco/tap/opencode'
 
 # Productivity
 cask 'rectangle'
