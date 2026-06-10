@@ -33,6 +33,7 @@ cask 'dotnet-sdk'
 brew 'opencode'
 brew 'watchman'
 brew 'cmake'
+brew 'cocoapods'
 
 # Productivity
 cask 'rectangle'
